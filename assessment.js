@@ -8,7 +8,7 @@ assessmentButton.addEventListener(
   'click',
   function () {
     //  () => {でもokアロー関数
-    //console.log('ボタンが押されました');
+    console.log('ボタンが押されました');
     const userName = userNameInput.value;
     if (userName.length !== 0) {
       // 名前が空でない場合は処理を継続する
